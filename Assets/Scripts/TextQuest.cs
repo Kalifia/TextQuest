@@ -13,12 +13,12 @@ public class TextQuest : MonoBehaviour
 
     Step currentStap;
 
-    void Start()
+   void Start()
     {
         currentStap = startStep;
         contentText.text = startStep.content;
 
-        print(numbers[2]);
+        
     }
 
     // Update is called once per frame
@@ -44,4 +44,12 @@ public class TextQuest : MonoBehaviour
             contentText.text = currentStap.content;
         }
     }
+
+    public void button ()
+    {
+        currentStap = currentStap.nextSteps[0];
+        contentText.text = currentStap.content;
+    }
 }
+
+
