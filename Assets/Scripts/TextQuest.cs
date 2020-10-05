@@ -8,6 +8,7 @@ public class TextQuest : MonoBehaviour
     public Text titleText;
     public Text contentText;
     public Step startStep;
+    public Button button;
 
     public int[] numbers;
 
@@ -45,10 +46,11 @@ public class TextQuest : MonoBehaviour
         }
     }
 
-    public void button ()
+    public void Button ()
     {
         currentStap = currentStap.nextSteps[0];
         contentText.text = currentStap.content;
+        button.gameObject.SetActive(false);
     }
 }
 
