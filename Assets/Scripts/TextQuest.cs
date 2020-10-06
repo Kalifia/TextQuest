@@ -9,47 +9,50 @@ public class TextQuest : MonoBehaviour
     public Text contentText;
     public Step startStep;
     public Button button;
+    public Image backgroundImage;
 
-    public int[] numbers;
 
-    Step currentStap;
+    Step currentStep;
 
-   void Start()
+    void Start()
     {
-        currentStap = startStep;
+        currentStep = startStep;
         contentText.text = startStep.content;
-
-        
+        backgroundImage.sprite = startStep.nextImages;
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
+        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1)|| Input.GetKeyDown(KeyCode.Escape))
         {
-            currentStap = currentStap.nextSteps[0];
-            contentText.text = currentStap.content;
+            currentStep = currentStep.nextSteps[0];
+            contentText.text = currentStep.content;
+            backgroundImage.sprite = currentStep.nextImages;
 
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2))
+        if (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Escape))
         {
-            currentStap = currentStap.nextSteps[1];
-            contentText.text = currentStap.content;
+            currentStep = currentStep.nextSteps[1];
+            contentText.text = currentStep.content;
+            backgroundImage.sprite = currentStep.nextImages;
 
         }
-        if (Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3))
+        if (Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3) || Input.GetKeyDown(KeyCode.Escape))
         {
 
-            currentStap = currentStap.nextSteps[2];
-            contentText.text = currentStap.content;
+            currentStep = currentStep.nextSteps[2];
+            contentText.text = currentStep.content;
+            backgroundImage.sprite = currentStep.nextImages;
         }
     }
 
-    public void Button ()
+    public void Button()
     {
-        currentStap = currentStap.nextSteps[0];
-        contentText.text = currentStap.content;
+        currentStep = currentStep.nextSteps[0];
+        contentText.text = currentStep.content;
+       backgroundImage.sprite = currentStep.nextImages;
         button.gameObject.SetActive(false);
     }
 }

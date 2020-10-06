@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 7760571}
   - component: {fileID: 7760572}
   m_Layer: 0
-  m_Name: "\u0427\u0430\u0435\u043F\u0438\u0442\u0438\u0435 (2)"
+  m_Name: "\u0423 \u041C\u0430\u0448\u0438"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150,7 +150,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1806510486}
-  m_RootOrder: 17
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7760572
 MonoBehaviour:
@@ -164,20 +164,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7268d854c732deb4d887baf1c2a7c03f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: "\u0412\u044B \u0441\u0438\u0434\u0438\u0442\u0435,\u0437\u0430\u0442\u0430\u0438\u0432
-    \u0434\u044B\u0445\u0430\u043D\u0438\u0435, \u0438 \u043F\u043E\u0441\u043B\u0435
-    \u0441\u043F\u043E\u043A\u043E\u0439\u043D\u043E \u0432\u044B\u0434\u044B\u0445\u0430\u0435\u0442\u0435,
-    \u0432\u0435\u0434\u044C \u0442\u043E\u043F\u043E\u0440 \u0431\u0430\u0431\u0435
-    \u0421\u0432\u0435\u0442\u0435 \u043D\u0443\u0436\u0435\u043D \u0431\u044B\u043B
-    \u0434\u043B\u044F \u0442\u043E\u0433\u043E, \u0447\u0442\u043E\u0431 \u043F\u043E\u0434\u043F\u0435\u0440\u0435\u0442\u044C
-    \u0434\u0432\u0435\u0440\u0446\u0443 \u0448\u043A\u0430\u0444\u0430, \u0433\u0434\u0435
-    \u043B\u0435\u0436\u0430\u043B\u0438 \u043F\u0438\u0440\u043E\u0436\u043A\u0438.\n-\u0423\u0433\u043E\u0449\u0430\u0439\u0441\u044F,
-    \u0432\u043D\u0443\u0447\u043E\u043A!\n\u0412\u044B \u0441\u0438\u0434\u0438\u0442\u0435
-    \u0438 \u043F\u044C\u0435\u0442\u0435 \u0447\u0430\u0439, \u0441\u043B\u0443\u0448\u0430\u044F
-    \u043B\u0438\u0445\u0438\u0435 \u0438\u0441\u0442\u043E\u0440\u0438\u0438 \u0438\u0437
-    \u043C\u043E\u043B\u043E\u0434\u043E\u0441\u0442\u0438 \u0431\u0430\u0431\u044B
-    \u0421\u0432\u0435\u0442\u044B. "
-  nextSteps: []
+  content: "\u0412\u044B \u043F\u043B\u044E\u0435\u0442\u0435 \u043D\u0430 \u043E\u0431\u0449\u0435\u043F\u0440\u0438\u043D\u044F\u0442\u044B\u0435
+    \u043D\u043E\u0440\u043C\u044B \u043C\u043E\u0440\u0430\u043B\u0438 \u0438 \u043F\u043E\u0434\u043D\u0438\u043C\u0430\u0435\u0442\u0435\u0441\u044C
+    \u0437\u0430 \u041C\u0430\u0448\u0435\u0439. \n-\u0411\u0443\u0434\u0435\u0448\u044C
+    \u0448\u0430\u043C\u043F\u0430\u043D\u0441\u043A\u043E\u0435?\n\u0412\u044B \u0431\u0435\u0440\u0435\u0442\u0435
+    \u0431\u043E\u043A\u0430\u043B \u0448\u0430\u043C\u043F\u0430\u043D\u0441\u043A\u043E\u0433\u043E
+    \u0438 \u0434\u0435\u043B\u0430\u0435\u0442\u0435 \u0433\u043B\u043E\u0442\u043E\u043A.
+    \u0413\u043E\u043B\u043E\u0432\u0430 \u043D\u0430\u0447\u0438\u043D\u0430\u0435\u0442
+    \u043A\u0440\u0443\u0436\u0438\u0442\u044C\u0441\u044F, \u0438 \u0432\u0441\u0435
+    \u043F\u043B\u044B\u0432\u0435\u0442 \u043F\u0435\u0440\u0435\u0434 \u0433\u043B\u0430\u0437\u0430\u043C\u0438.
+    \u041A\u0430\u0436\u0435\u0442\u0441\u044F, \u041C\u0430\u0448\u0430 \u043F\u043E\u0434\u043C\u0435\u0448\u0430\u043B\u0430
+    \u043A\u043B\u043E\u0444\u0435\u043B\u0438\u043D \u0412\u0430\u043C \u0432 \u043D\u0430\u043F\u0438\u0442\u043E\u043A.
+    \u0412\u044B \u0437\u0430\u0441\u044B\u043F\u0430\u0435\u0442\u0435, \u0430 \u0432\u0435\u0434\u044C
+    \u0441\u0447\u0430\u0441\u0442\u044C\u0435 \u0431\u044B\u043B\u043E \u0442\u0430\u043A
+    \u0431\u043B\u0438\u0437\u043A\u043E... \n\u0412\u044B \u043D\u0435 \u043F\u043E\u043F\u0430\u043B\u0438
+    \u0434\u043E\u043C\u043E\u0439. \u041D\u0430\u0436\u043C\u0438\u0442\u0435 esc
+    \u0434\u043B\u044F \u0432\u044B\u0445\u043E\u0434\u0430..."
+  nextImages: {fileID: 21300000, guid: 401bc8a26f469704197dc9f22eb7effc, type: 3}
+  nextSteps:
+  - {fileID: 2143305480}
 --- !u!1 &132588453
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,7 +266,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &265958447
+--- !u!1 &255796934
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -269,49 +274,71 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 265958448}
-  - component: {fileID: 265958449}
-  m_Layer: 0
-  m_Name: "\u0412\u044B\u0445\u043E\u0434\u0438\u043C \u0438\u0437 \u0448\u043A\u043E\u043B\u044B"
+  - component: {fileID: 255796935}
+  - component: {fileID: 255796937}
+  - component: {fileID: 255796936}
+  m_Layer: 5
+  m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &265958448
-Transform:
+--- !u!224 &255796935
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 265958447}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 255796934}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1806510486}
-  m_RootOrder: 1
+  m_Father: {fileID: 726326889}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &265958449
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1099, y: 618}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &255796936
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 265958447}
+  m_GameObject: {fileID: 255796934}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268d854c732deb4d887baf1c2a7c03f, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: "\u0412\u0440\u0435\u043C\u044F: 20:00. \u0412\u044B \u0432\u044B\u0445\u043E\u0434\u0438\u0442\u0435
-    \u0438\u0437 \u0448\u043A\u043E\u043B\u044B \u0438  \u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442\u0435\u0441\u044C
-    \u043D\u0430 \u0440\u0430\u0437\u0432\u0438\u043B\u043A\u0435. \u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435
-    \u043F\u043E\u0439\u0442\u0438:\n1 - \u0447\u0435\u0440\u0435\u0437 \u0434\u0432\u043E\u0440\u044B\n2
-    - \u0447\u0435\u0440\u0435\u0437 \u043B\u0435\u0441"
-  nextSteps:
-  - {fileID: 1236959571}
-  - {fileID: 2096071941}
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &255796937
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255796934}
+  m_CullTransparentMesh: 0
 --- !u!1 &342350785
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,7 +369,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1806510486}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &342350787
 MonoBehaviour:
@@ -364,7 +391,10 @@ MonoBehaviour:
     \u043F\u043E\u043C\u043E\u0433\u0438 \u0431\u0430\u0431\u0443\u0441\u0435 \u0437\u0430\u043A\u0430\u0442\u043A\u0438
     \u0434\u043E \u043A\u0432\u0430\u0440\u0442\u0438\u0440\u044B \u0434\u043E\u043D\u0435\u0441\u0442\u0438.\n1
     - \u0441\u043E\u0433\u043B\u0430\u0441\u0438\u0442\u044C\u0441\u044F \n2 - \u043E\u0442\u043A\u0430\u0437\u0430\u0442\u044C\u0441\u044F"
-  nextSteps: []
+  nextImages: {fileID: 21300000, guid: c654a01c966718e4a85b93acac875157, type: 3}
+  nextSteps:
+  - {fileID: 1661972558}
+  - {fileID: 1161641234}
 --- !u!1 &674225897
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,11 +451,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: db70572b2a0bfa74f9e68becb2295157, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -471,7 +501,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1806510486}
-  m_RootOrder: 13
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &679650984
 MonoBehaviour:
@@ -498,8 +528,11 @@ MonoBehaviour:
     \u0432\u0438\u043D\u044B \u0441\u044A\u0435\u0434\u0430\u0435\u0442 \u0412\u0430\u0441,
     \u0438 \u0412\u044B \u0441\u0430\u043C\u0438 \u0432\u044B\u0437\u044B\u0432\u0430\u0435\u0442\u0435
     \u043F\u043E\u043B\u0438\u0446\u0438\u044E. \u0414\u043E\u043C\u043E\u0439 \u0412\u044B
-    \u0441\u0435\u0433\u043E\u0434\u043D\u044F \u043D\u0435 \u043F\u043E\u043F\u0430\u0434\u0435\u0442\u0435."
-  nextSteps: []
+    \u0441\u0435\u0433\u043E\u0434\u043D\u044F \u043D\u0435 \u043F\u043E\u043F\u0430\u0434\u0435\u0442\u0435.\n\u041D\u0430\u0436\u043C\u0438\u0442\u0435
+    esc \u0434\u043B\u044F \u0432\u044B\u0445\u043E\u0434\u0430..."
+  nextImages: {fileID: 21300000, guid: 2c0b1a5251be46440b1240cae1789202, type: 3}
+  nextSteps:
+  - {fileID: 2143305480}
 --- !u!1 &726326885
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,6 +623,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 255796935}
   - {fileID: 994672269}
   - {fileID: 1450076967}
   m_Father: {fileID: 0}
@@ -608,8 +642,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 751644190}
+  - component: {fileID: 751644192}
   - component: {fileID: 751644189}
+  - component: {fileID: 751644191}
   m_Layer: 0
   m_Name: Text Quest
   m_TagString: Untagged
@@ -633,22 +668,35 @@ MonoBehaviour:
   contentText: {fileID: 1028110257}
   startStep: {fileID: 2143305480}
   button: {fileID: 1642719422}
-  numbers: 000000000000000006000000
---- !u!4 &751644190
-Transform:
+  backgroundImage: {fileID: 255796936}
+--- !u!222 &751644191
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751644188}
+  m_CullTransparentMesh: 0
+--- !u!224 &751644192
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751644188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 953.54504, y: 610.15875, z: -904.06036}
+  m_LocalPosition: {x: 0, y: 0, z: -904.06036}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1806510486}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 953.54504, y: 610.15875}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &916628044
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,7 +726,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1806510486}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &916628046
 MonoBehaviour:
@@ -700,8 +748,11 @@ MonoBehaviour:
     \u043A\u043B\u0430\u0434 \u0437\u0430 \u043B\u0430\u0432\u043A\u043E\u0439. \u0413\u0440\u044F\u0437\u043D\u043E
     \u0432\u044B\u0440\u0443\u0433\u0430\u0432\u0448\u0438\u0441\u044C. \u043E\u043D
     \u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442 \u0432\u0430\u0441 \u0432
-    \u043F\u043E\u043A\u043E\u0435. \u0412\u0440\u0435\u043C\u044F: 20:15."
-  nextSteps: []
+    \u043F\u043E\u043A\u043E\u0435. \u0412\u044B \u0438\u0434\u0435\u0442\u0435 \u0434\u0430\u043B\u044C\u0448\u0435.\n\u041D\u0430\u0436\u043C\u0438\u0442\u0435
+    1 \u0434\u043B\u044F \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u044F..."
+  nextImages: {fileID: 21300000, guid: f7d3cb0a06a4b4c4e94ba848ea96a98b, type: 3}
+  nextSteps:
+  - {fileID: 342350787}
 --- !u!1 &994672268
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,11 +784,11 @@ RectTransform:
   m_Children:
   - {fileID: 1028110256}
   m_Father: {fileID: 726326889}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -114}
+  m_AnchoredPosition: {x: 0, y: -85}
   m_SizeDelta: {x: 816.9, y: 254.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &994672270
@@ -753,7 +804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8000001, g: 0.8000001, b: 0.8000001, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -811,7 +862,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.9, y: -2.1}
+  m_AnchoredPosition: {x: 0.000024319, y: 0.0000061989}
   m_SizeDelta: {x: 762.6, y: 208.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1028110257
@@ -833,7 +884,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: db70572b2a0bfa74f9e68becb2295157, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 1
@@ -888,7 +939,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 43.400024, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 415.9, y: 41.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1039021576
@@ -918,13 +969,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: db70572b2a0bfa74f9e68becb2295157, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -961,7 +1012,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1806510486}
-  m_RootOrder: 14
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1049168539
 MonoBehaviour:
@@ -987,8 +1038,11 @@ MonoBehaviour:
     \u043F\u043E\u0434\u0430\u043B\u044C\u0448\u0435 \u043E\u0442 \u044D\u0442\u043E\u0433\u043E
     \u043C\u0435\u0441\u0442\u0430. \u041E\u0441\u0442\u043E\u0440\u043E\u0436\u043D\u043E\u0441\u0442\u044C,
     \u043E\u0434\u043D\u0430\u043A\u043E, \u043D\u0438\u043A\u043E\u0433\u0434\u0430
-    \u043D\u0435 \u0431\u044B\u0432\u0430\u0435\u0442 \u043B\u0438\u0448\u043D\u0435\u0439."
-  nextSteps: []
+    \u043D\u0435 \u0431\u044B\u0432\u0430\u0435\u0442 \u043B\u0438\u0448\u043D\u0435\u0439.
+    \n\u041D\u0430\u0436\u043C\u0438\u0442\u0435 1 \u0434\u043B\u044F \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u044F.."
+  nextImages: {fileID: 21300000, guid: 2c0b1a5251be46440b1240cae1789202, type: 3}
+  nextSteps:
+  - {fileID: 1480689114}
 --- !u!1 &1122379244
 GameObject:
   m_ObjectHideFlags: 0
@@ -1018,7 +1072,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1806510486}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1122379246
 MonoBehaviour:
@@ -1037,8 +1091,12 @@ MonoBehaviour:
     \u0441\u0442\u043E\u0438\u0442\u0435 \u0438 \u043A\u0443\u0440\u0438\u0442\u0435
     \u0432\u043C\u0435\u0441\u0442\u0435, \u0432\u0441\u043F\u043E\u043C\u0438\u043D\u0430\u044F
     \u0431\u044B\u043B\u043E\u0435 \u0438 \u0441\u0432\u0435\u0442\u043B\u043E\u0435
-    \u0432\u0440\u0435\u043C\u044F. \u0412\u0440\u0435\u043C\u044F: 20:30"
-  nextSteps: []
+    \u0432\u0440\u0435\u043C\u044F, \u0430 \u0437\u0430\u0442\u0435\u043C \u0438\u0434\u0435\u0442\u0435
+    \u0434\u0430\u043B\u0435\u0435.\n\u041D\u0430\u0436\u043C\u0438\u0442\u0435 1
+    \u0434\u043B\u044F \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u044F.."
+  nextImages: {fileID: 21300000, guid: f7d3cb0a06a4b4c4e94ba848ea96a98b, type: 3}
+  nextSteps:
+  - {fileID: 342350787}
 --- !u!1 &1161641232
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,7 +1126,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1806510486}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1161641234
 MonoBehaviour:
@@ -1097,9 +1155,12 @@ MonoBehaviour:
     \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u0435 \u0441\u0441\u043E\u0440\u044B
     \u0441\u044B\u043D\u0430 \u0431\u0430\u0431\u044B \u0421\u0432\u0435\u0442\u044B
     \u0441\u043E \u0441\u0432\u043E\u0435\u0439 \u0436\u0435\u043D\u043E\u0439. \u0421\u0435\u0433\u043E\u0434\u043D\u044F
-    \u0412\u044B \u0442\u043E\u0447\u043D\u043E \u043D\u0435 \u0434\u043E\u0439\u0434\u0435\u0442\u0435
-    \u0434\u043E\u043C\u043E\u0439. "
-  nextSteps: []
+    \u0412\u044B \u0442\u043E\u0447\u043D\u043E \u043D\u0435 \u043F\u043E\u043F\u0430\u0434\u0435\u0442\u0435
+    \u0434\u043E\u043C\u043E\u0439\n\u041D\u0430\u0436\u043C\u0438\u0442\u0435 esc
+    \u0434\u043B\u044F \u0432\u044B\u0445\u043E\u0434\u0430\n "
+  nextImages: {fileID: 21300000, guid: c654a01c966718e4a85b93acac875157, type: 3}
+  nextSteps:
+  - {fileID: 2143305480}
 --- !u!1 &1188224380
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,7 +1172,7 @@ GameObject:
   - component: {fileID: 1188224381}
   - component: {fileID: 1188224382}
   m_Layer: 0
-  m_Name: "\u0427\u0430\u0435\u043F\u0438\u0442\u0438\u0435 (3)"
+  m_Name: "\u0423 \u043F\u043E\u0434\u044A\u0435\u0437\u0434\u0430"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1129,7 +1190,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1806510486}
-  m_RootOrder: 18
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1188224382
 MonoBehaviour:
@@ -1143,19 +1204,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7268d854c732deb4d887baf1c2a7c03f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: "\u0412\u044B \u0441\u0438\u0434\u0438\u0442\u0435,\u0437\u0430\u0442\u0430\u0438\u0432
-    \u0434\u044B\u0445\u0430\u043D\u0438\u0435, \u0438 \u043F\u043E\u0441\u043B\u0435
-    \u0441\u043F\u043E\u043A\u043E\u0439\u043D\u043E \u0432\u044B\u0434\u044B\u0445\u0430\u0435\u0442\u0435,
-    \u0432\u0435\u0434\u044C \u0442\u043E\u043F\u043E\u0440 \u0431\u0430\u0431\u0435
-    \u0421\u0432\u0435\u0442\u0435 \u043D\u0443\u0436\u0435\u043D \u0431\u044B\u043B
-    \u0434\u043B\u044F \u0442\u043E\u0433\u043E, \u0447\u0442\u043E\u0431 \u043F\u043E\u0434\u043F\u0435\u0440\u0435\u0442\u044C
-    \u0434\u0432\u0435\u0440\u0446\u0443 \u0448\u043A\u0430\u0444\u0430, \u0433\u0434\u0435
-    \u043B\u0435\u0436\u0430\u043B\u0438 \u043F\u0438\u0440\u043E\u0436\u043A\u0438.\n-\u0423\u0433\u043E\u0449\u0430\u0439\u0441\u044F,
-    \u0432\u043D\u0443\u0447\u043E\u043A!\n\u0412\u044B \u0441\u0438\u0434\u0438\u0442\u0435
-    \u0438 \u043F\u044C\u0435\u0442\u0435 \u0447\u0430\u0439, \u0441\u043B\u0443\u0448\u0430\u044F
-    \u043B\u0438\u0445\u0438\u0435 \u0438\u0441\u0442\u043E\u0440\u0438\u0438 \u0438\u0437
-    \u043C\u043E\u043B\u043E\u0434\u043E\u0441\u0442\u0438 \u0431\u0430\u0431\u044B
-    \u0421\u0432\u0435\u0442\u044B. "
+  content: "\u0421\u043E\u0431\u0440\u0430\u0432 \u0432\u043E\u043B\u044E \u0432
+    \u043A\u0443\u043B\u0430\u043A, \u0412\u044B \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u0435
+    \u0441\u0438\u043B\u044B \u0441\u043A\u0430\u0437\u0430\u0442\u044C \u043D\u0435\u0442.
+    \u0418 \u0432\u043E\u0442 \u0412\u044B \u0443\u0436\u0435 \u0443 \u0412\u0430\u0448\u0435\u0433\u043E
+    \u043F\u043E\u0434\u044A\u0435\u0437\u0434\u0430. \u0415\u0449\u0435 \u043D\u0435\u043C\u043D\u043E\u0433\u043E
+    \u0438... \n\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E! \u0412\u044B
+    \u043D\u0430\u043A\u043E\u043D\u0435\u0446-\u0442\u043E \u0434\u043E\u043C\u0430!!"
+  nextImages: {fileID: 21300000, guid: 86ee17c52b185f64eb3ec20646c31811, type: 3}
   nextSteps: []
 --- !u!1 &1236959569
 GameObject:
@@ -1186,7 +1242,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1806510486}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1236959571
 MonoBehaviour:
@@ -1200,18 +1256,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7268d854c732deb4d887baf1c2a7c03f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: "\u0412\u0440\u0435\u043C\u044F: 20:10. \u0412\u044B \u043D\u044B\u0440\u044F\u0435\u0442\u0435
-    \u0432 \u043B\u0430\u0431\u0438\u0440\u0438\u043D\u0442 \u0434\u043E\u043C\u043E\u0432
-    \u0438 \u043D\u0430\u0447\u0438\u043D\u0430\u0435\u0442\u0435 \u0441\u0432\u043E\u0439
-    \u043F\u0443\u0442\u044C \u0434\u043E\u043C\u043E\u0439. \u041A \u0441\u043E\u0436\u0430\u043B\u0435\u043D\u0438\u044E,
-    \u043F\u0440\u043E\u0441\u0438\u0445\u043E\u0434\u0438\u0442 \u0441\u0442\u0440\u0430\u0448\u043D\u043E\u0435
-    - \u0432\u044B \u043D\u0430\u0442\u044B\u043A\u0430\u0442\u0435\u0441\u044C \u043D\u0430
-    \u043D\u0430\u0440\u043A\u043E\u043C\u0430\u043D\u0430 \u0412\u043B\u0430\u0434\u0438\u043A\u0430,
+  content: "\u0412\u044B \u043D\u044B\u0440\u044F\u0435\u0442\u0435 \u0432 \u043B\u0430\u0431\u0438\u0440\u0438\u043D\u0442
+    \u0434\u043E\u043C\u043E\u0432 \u0438 \u043D\u0430\u0447\u0438\u043D\u0430\u0435\u0442\u0435
+    \u0441\u0432\u043E\u0439 \u043F\u0443\u0442\u044C \u0434\u043E\u043C\u043E\u0439.
+    \u041A \u0441\u043E\u0436\u0430\u043B\u0435\u043D\u0438\u044E, \u043F\u0440\u043E\u0441\u0438\u0445\u043E\u0434\u0438\u0442
+    \u0441\u0442\u0440\u0430\u0448\u043D\u043E\u0435 - \u0432\u044B \u043D\u0430\u0442\u044B\u043A\u0430\u0442\u0435\u0441\u044C
+    \u043D\u0430 \u043D\u0430\u0440\u043A\u043E\u043C\u0430\u043D\u0430 \u0412\u043B\u0430\u0434\u0438\u043A\u0430,
     \u0448\u0430\u0440\u0438\u0432\u0448\u0435\u0433\u043E \u043F\u043E\u0434 \u043B\u0430\u0432\u043A\u043E\u0439.\n-\u042D\u0439,
     \u043F\u0440\u0438\u044F\u0442\u0435\u043B\u044C, \u0441\u0438\u0433\u0430\u0440\u0435\u0442\u043A\u0438
     \u043D\u0435 \u0431\u0443\u0436\u0435\u0442?\n\u0412\u0430\u0448 \u043E\u0442\u0432\u0435\u0442:\n1
     - \u0434\u0430\u0442\u044C \u0441\u0438\u0433\u0430\u0440\u0435\u0442\u0443 \n2
     - \u043E\u0442\u043A\u0430\u0437\u0430\u0442\u044C \n3 - \u0431\u0435\u0436\u0430\u0442\u044C "
+  nextImages: {fileID: 21300000, guid: f7d3cb0a06a4b4c4e94ba848ea96a98b, type: 3}
   nextSteps:
   - {fileID: 1122379246}
   - {fileID: 1240551949}
@@ -1245,7 +1301,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1806510486}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1240551949
 MonoBehaviour:
@@ -1264,6 +1320,7 @@ MonoBehaviour:
     \u0434\u043E\u0441\u0442\u0430\u0435\u0442 \u0437\u0430\u0442\u043E\u0447\u043A\u0443
     \u0438 \u0431\u0440\u043E\u0441\u0430\u0435\u0442\u0441\u044F \u043D\u0430 \u0412\u0430\u0441. 
     \n1 - \u0431\u0435\u0436\u0430\u0442\u044C\n2 - \u0437\u0430\u0449\u0438\u0449\u0430\u0442\u044C\u0441\u044F "
+  nextImages: {fileID: 21300000, guid: f7d3cb0a06a4b4c4e94ba848ea96a98b, type: 3}
   nextSteps:
   - {fileID: 916628046}
   - {fileID: 1349281840}
@@ -1296,7 +1353,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1806510486}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1349281840
 MonoBehaviour:
@@ -1320,8 +1377,11 @@ MonoBehaviour:
     \u0421\u0435\u0433\u043E\u0434\u043D\u044F \u0434\u043E\u043C\u043E\u0439 \u0412\u044B
     \u0442\u043E\u0447\u043D\u043E \u043D\u0435 \u0432\u0435\u0440\u043D\u0435\u0442\u0435\u0441\u044C,
     \u043A\u0430\u043A \u0438 \u0432 \u0431\u043B\u0438\u0437\u0436\u0430\u0439\u0448\u0438\u0435
-    8 \u043B\u0435\u0442. "
-  nextSteps: []
+    8 \u043B\u0435\u0442. \n\u041D\u0430\u0436\u043C\u0438\u0442\u0435 esc \u0434\u043B\u044F
+    \u0432\u044B\u0445\u043E\u0434\u0430"
+  nextImages: {fileID: 21300000, guid: f7d3cb0a06a4b4c4e94ba848ea96a98b, type: 3}
+  nextSteps:
+  - {fileID: 2143305480}
 --- !u!1 &1450076966
 GameObject:
   m_ObjectHideFlags: 0
@@ -1353,12 +1413,12 @@ RectTransform:
   m_Children:
   - {fileID: 1039021575}
   m_Father: {fileID: 726326889}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.454956, y: 140.15875}
-  m_SizeDelta: {x: 502.7, y: 87.3}
+  m_AnchoredPosition: {x: -0.000024796, y: 211}
+  m_SizeDelta: {x: 684.3, y: 66.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1450076968
 MonoBehaviour:
@@ -1373,7 +1433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6226415, g: 0.10279457, b: 0.10279457, a: 1}
+  m_Color: {r: 0.8000001, g: 0.8000001, b: 0.8000001, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1396,54 +1456,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1450076966}
   m_CullTransparentMesh: 0
---- !u!1 &1474438160
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1474438161}
-  - component: {fileID: 1474438162}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1474438161
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474438160}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1806510486}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1474438162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474438160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268d854c732deb4d887baf1c2a7c03f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  content: "\u0412\u044B \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442\u0435 \u043A
-    \u043A\u0443\u0441\u0442\u0430\u043C \u0438 \u0432\u0438\u0434\u0438\u0442\u0435
-    \u0441\u0432\u043E\u044E \u0441\u0442\u0430\u0440\u0443\u044E \u0437\u043D\u0430\u043A\u043E\u043C\u0443\u044E
-    - "
-  nextSteps: []
 --- !u!1 &1480689112
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,7 +1467,7 @@ GameObject:
   - component: {fileID: 1480689113}
   - component: {fileID: 1480689114}
   m_Layer: 0
-  m_Name: "\u0427\u0430\u0435\u043F\u0438\u0442\u0438\u0435 (1)"
+  m_Name: "\u0412\u0441\u0442\u0440\u0435\u0447\u0430 \u0441 \u041C\u0430\u0448\u0435\u0439"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1473,7 +1485,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1806510486}
-  m_RootOrder: 16
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1480689114
 MonoBehaviour:
@@ -1502,8 +1514,17 @@ MonoBehaviour:
     \u043F\u0440\u043E\u0438\u0437\u043E\u0448\u043B\u043E.\n-\u041C\u043E\u0439
     \u043F\u0430\u0440\u0435\u043D\u044C \u043D\u0435 \u043F\u0440\u0438\u0448\u0435\u043B
     \u043A\u043E \u043C\u043D\u0435 \u0441\u0435\u0433\u043E\u0434\u043D\u044F, \u0430
-    \u0440\u043E\u0434\u0438\u0442\u0435\u043B\u0438 \u0442\u0430\u043A \u0440\u0435\u0434\u043A\u043E "
-  nextSteps: []
+    \u0440\u043E\u0434\u0438\u0442\u0435\u043B\u0438 \u0442\u0430\u043A \u0440\u0435\u0434\u043A\u043E
+    \u0443\u0435\u0437\u0436\u0430\u044E\u0442 \u043D\u0430 \u0434\u0430\u0447\u0443.
+    \u041A\u0430\u043A \u0445\u043E\u0440\u043E\u0448\u043E, \u0447\u0442\u043E \u0442\u044B
+    \u043E\u043A\u0430\u0437\u0430\u043B\u0441\u044F \u0442\u0443\u0442! \u041D\u0435
+    \u0445\u043E\u0447\u0435\u0448\u044C \u043F\u043E\u0439\u0442\u0438 \u043A\u043E
+    \u043C\u043D\u0435?\n1 - \u0441\u043E\u0433\u043B\u0430\u0441\u0438\u0442\u044C\u0441\u044F
+    \n2 - \u043E\u0442\u043A\u0430\u0437\u0430\u0442\u044C\u0441\u044F"
+  nextImages: {fileID: 21300000, guid: 401bc8a26f469704197dc9f22eb7effc, type: 3}
+  nextSteps:
+  - {fileID: 7760572}
+  - {fileID: 1881866687}
 --- !u!1 &1548844366
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,7 +1620,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1806510486}
-  m_RootOrder: 15
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1614892513
 MonoBehaviour:
@@ -1625,8 +1646,11 @@ MonoBehaviour:
     \u0438 \u043F\u044C\u0435\u0442\u0435 \u0447\u0430\u0439, \u0441\u043B\u0443\u0448\u0430\u044F
     \u043B\u0438\u0445\u0438\u0435 \u0438\u0441\u0442\u043E\u0440\u0438\u0438 \u0438\u0437
     \u043C\u043E\u043B\u043E\u0434\u043E\u0441\u0442\u0438 \u0431\u0430\u0431\u044B
-    \u0421\u0432\u0435\u0442\u044B. "
-  nextSteps: []
+    \u0421\u0432\u0435\u0442\u044B. \n\u041D\u0430\u0436\u043C\u0438\u0442\u0435
+    1 \u0434\u043B\u044F \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u044F..."
+  nextImages: {fileID: 21300000, guid: 2c0b1a5251be46440b1240cae1789202, type: 3}
+  nextSteps:
+  - {fileID: 1480689114}
 --- !u!1 &1642719420
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,7 +1687,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.43077493, y: 0.559}
   m_AnchorMax: {x: 0.43077493, y: 0.559}
-  m_AnchoredPosition: {x: 39.8, y: -104.6}
+  m_AnchoredPosition: {x: 52.791, y: -190}
   m_SizeDelta: {x: 204.6, y: 51.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1642719422
@@ -1686,9 +1710,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    m_NormalColor: {r: 0.8018868, g: 0.7602795, b: 0.7602795, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.7264151, g: 0.11307406, b: 0.11307406, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1785,7 +1809,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1806510486}
-  m_RootOrder: 11
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1661972558
 MonoBehaviour:
@@ -1812,7 +1836,10 @@ MonoBehaviour:
     \u0442\u0430\u043A\u043E\u0439 \u043C\u0438\u043B\u043E\u0439 \u0431\u0430\u0431\u0443\u0448\u043A\u0435
     \u0438 \u0432\u044B \u0441\u043E\u0433\u043B\u0430\u0448\u0430\u0435\u0442\u0435\u0441\u044C.\n2
     - \u0412\u044B \u043E\u0442\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442\u0435\u0441\u044C."
-  nextSteps: []
+  nextImages: {fileID: 21300000, guid: c654a01c966718e4a85b93acac875157, type: 3}
+  nextSteps:
+  - {fileID: 1881866687}
+  - {fileID: 1480689114}
 --- !u!1 &1806510485
 GameObject:
   m_ObjectHideFlags: 0
@@ -1841,14 +1868,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2143305478}
-  - {fileID: 265958448}
   - {fileID: 1236959570}
-  - {fileID: 2096071940}
   - {fileID: 1122379245}
   - {fileID: 1240551948}
   - {fileID: 916628045}
   - {fileID: 1349281839}
-  - {fileID: 1474438161}
   - {fileID: 342350786}
   - {fileID: 1161641233}
   - {fileID: 1661972557}
@@ -1859,7 +1883,7 @@ Transform:
   - {fileID: 1480689113}
   - {fileID: 7760571}
   - {fileID: 1188224381}
-  m_Father: {fileID: 751644190}
+  m_Father: {fileID: 751644192}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1881866685
@@ -1891,7 +1915,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1806510486}
-  m_RootOrder: 12
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1881866687
 MonoBehaviour:
@@ -1917,60 +1941,11 @@ MonoBehaviour:
     \u0437\u0430 \u0442\u043E\u043F\u043E\u0440\u043E\u043C. \n1 - \u0431\u0435\u0436\u0430\u0442\u044C\n2
     - \u0430\u0442\u0430\u043A\u043E\u0432\u0430\u0442\u044C \u043F\u0435\u0440\u0432\u044B\u043C\n3
     - \u043D\u0435 \u043E\u0431\u0440\u0430\u0449\u0430\u0442\u044C \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u0435"
-  nextSteps: []
---- !u!1 &2096071939
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2096071940}
-  - component: {fileID: 2096071941}
-  m_Layer: 0
-  m_Name: "\u041B\u0435\u0441"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2096071940
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2096071939}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1806510486}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2096071941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2096071939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268d854c732deb4d887baf1c2a7c03f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  content: "\u0412\u044B \u0438\u0434\u0435\u0442\u0435 \u043F\u043E \u0434\u043E\u0440\u043E\u0433\u0435
-    \u0432\u0434\u043E\u043B\u044C \u043B\u0435\u0441\u0430 \u0438 \u0432\u0434\u0440\u0443\u0433
-    \u0441\u043B\u044B\u0448\u0438\u0442\u0435 \u043A\u0440\u0438\u043A, \u0434\u043E\u043D\u043E\u0441\u044F\u0449\u0438\u0439\u0441\u044F
-    \u0438\u0437 \u043A\u0443\u0441\u0442\u043E\u0432:\n-\u041D\u0430 \u043F\u043E\u043C\u043E\u0449\u044C!
-    \u041F\u043E\u043C\u043E\u0433\u0438\u0442\u0435!\n1 - \u043F\u043E\u0441\u0442\u0443\u043F\u0438\u0442\u044C
-    \u043A\u0430\u043A \u0434\u0436\u0435\u043D\u0442\u0435\u043B\u044C\u043C\u0435\u043D
-    \u0438 \u043F\u043E\u0439\u0442\u0438 \u043A \u043A\u0443\u0441\u0442\u0430\u043C\n2
-    - \u043F\u0440\u043E\u0439\u0442\u0438 \u043C\u0438\u043C\u043E"
+  nextImages: {fileID: 21300000, guid: 2c0b1a5251be46440b1240cae1789202, type: 3}
   nextSteps:
-  - {fileID: 0}
+  - {fileID: 1049168539}
+  - {fileID: 679650984}
+  - {fileID: 1614892513}
 --- !u!1 &2143305477
 GameObject:
   m_ObjectHideFlags: 0
@@ -2024,7 +1999,7 @@ MonoBehaviour:
     \u0434\u043E\u0431\u0440\u0430\u0442\u044C\u0441\u044F \u0434\u043E\u043C\u043E\u0439
     \u0432 \u0446\u0435\u043B\u043E\u0441\u0442\u0438 \u0438 \u0441\u043E\u0445\u0440\u0430\u043D\u043D\u043E\u0441\u0442\u0438
     \u0434\u043E \u043D\u0430\u0441\u0442\u043F\u0443\u043B\u0435\u043D\u0438\u044F
-    \u0442\u0435\u043C\u043D\u043E\u0442\u044B. \u0423 \u0412\u0430\u0441 \u0435\u0441\u0442\u044C
-    \u043D\u0430 \u044D\u0442\u043E 1 \u0447\u0430\u0441. "
+    \u0442\u0435\u043C\u043D\u043E\u0442\u044B. "
+  nextImages: {fileID: 21300000, guid: 34aaeceba87618e42af0aeb816c82fe2, type: 3}
   nextSteps:
-  - {fileID: 265958449}
+  - {fileID: 1236959571}
