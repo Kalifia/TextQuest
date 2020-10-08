@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TextQuest : MonoBehaviour
+public class TextQuestSO: MonoBehaviour
 {
     public Text titleText;
     public Text contentText;
-    public Step startStep;
+    public StepSO startStep;
     public Button button;
     public Image backgroundImage;
 
 
-    Step currentStep;
+    StepSO currentStep;
 
     void Start()
     {
@@ -57,5 +57,3 @@ public class TextQuest : MonoBehaviour
         UpdateStep();
     }
 }
-
-
